@@ -17,30 +17,10 @@ module.exports = withPlugins([
     async redirects() {
         return [
             {
-                source: '/instagram',
-                destination: 'https://www.instagram.com/mrck.dev/',
+                source: '/mrck',
+                destination: 'https://www.mrck.dev/',
                 permanent: true
             },
-            {
-                source: '/linkedin',
-                destination: 'https://www.linkedin.com/in/marcin-krawczyk-0326b434/',
-                permanent: true
-            },
-            {
-                source: '/twitch',
-                destination: 'https://www.twitch.tv/mrckdev/',
-                permanent: true
-            },
-            {
-                source: '/github',
-                destination: 'https://github.com/marckraw',
-                permanent: true
-            },
-            {
-                source: '/twitter',
-                destination: 'https://twitter.com/marckraw',
-                permanent: true
-            }
         ]
     }
 })
